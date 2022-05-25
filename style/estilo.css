@@ -1,0 +1,54 @@
+html {
+    /*aquie vamos adiconar a raquete de mata mosquito, usamos o html para informa que sera em todoas as páginas */
+    cursor: url(../imagens/mata_mosca.png) 30 30, auto;
+}
+
+body {
+    background-image: url(../imagens/bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.mosquito1 {
+    width: 50px;
+    height: 50px;
+}
+
+.mosquito2 {
+    width: 70px;
+    height: 70px;
+}
+
+.mosquito3 {
+    width: 90px;
+    height: 90px;
+}
+
+.ladoA {
+    transform: scaleX(1); /*para mudar o lado da imgagem aleatoriamente*/
+}
+
+.ladoB {
+    transform: scaleX(-1);/* colocando em -1 vamos fazer a inversão da imagem fazendo um flip para inverter aleatoriamente*/
+}
+
+.painel {
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    bottom: 0px;
+    border-top: solid 1px white;
+    background-color: #fff;
+    opacity: 0.7;
+    left: 0px;
+}
+
+.vidas {
+    float: left;
+}
+
+.cronometro {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
